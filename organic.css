@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	overflow-x:hidden;
+}
+#header-main{
+	width:100%;
+	height:700px;
+	
+}
+.navbar-brand{
+	font-size:30px;
+	font-family:Monotype Corsiva;
+}
+header{
+	height:700px;
+	width:100%;
+}
+.header-bg{
+	background-image:url("./img/bg1.jpg");
+	background-repeat: no-repeat;
+    background-size:cover;
+	background-position:center;
+	position:relative;
+	
+}
+.header-bg h1{
+	font-family:Monotype Corsiva;
+}
+.main-btn{
+	border-radius:20px;
+	position:relative;
+	left:670px;
+	top:400px;
+	
+}
+.bg2{
+	background-image:url("./img/bg2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:400px;
+	position:relative;
+}
+.bg1{
+	position:relative;
+	left:440px;
+	top:300px;
+	font-weight:400;
+}
+.bg2 h1{
+	position:absolute;
+	left:400px;
+	top:200px;
+	color:white;
+}
+
+#footer{
+	background-image:url("./img/bg3.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:100%;
+	height:400px;
+	}
+.link-widget li a{
+		text-decoration:none;
+		list-style:none;
+		color:black;
+		font-size:18px;
+		font-weight:600;
+	}
+	.card{
+		background:linear-gradient(-34deg,white 50%,#2FE4A8 0%);
+  background-size:400% 100%;
+ background-position:right bottom;
+ transition:all 1s;
+	}
+	.card:hover{
+		background-position:left top;
+		transform:translateY(-10px);
+		cursor:pointer;
+	}
+.card i{
+	font-size:20px;
+	color:#9910DD;
+}
+.social-icons a{
+	text-decoration:none;
+	font-size:30px;
+	margin-right:15px;
+	color:#ababab;
+	display:inline-block;
+}
+.ft ul li a{
+	text-decoration:none;
+	color:white;
+	transition: all 0.5s ease-out 0s;
+}
+.ft ul li a:hover{
+	margin-left:15px;
+	color:#BCBCBC;
+}
+.contact-left{
+	position:relative;
+	left:150px;
+	top:53px;
+}
+.social-icons a i{
+	color:#54E9E7;
+}
+@media only screen and (max-width: 600px) {
+.bg1{
+	position:relative;
+	left:80px;
+	top:300px;
+	font-size:30px;
+	width:250px;
+}
+.bg2 h1{
+	position:absolute;
+	left:25px;
+	color:white;
+	top:160px;
+	font-size:30px;
+}
+.main-btn{
+	border-radius:20px;
+	position:relative;
+	left:130px;
+	top:400px;
+	
+}
+.sm ul li a{
+	text-decoration:none;
+	list-style:none;
+	color:#ffc107;
+}
+#footer{
+	background-image:url("./img/bg3.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:100%;
+	height:1000px;
+	}
+	.contact-left{
+	position:relative;
+	top:0px;
+	left:10px;
+}
